@@ -1,0 +1,11 @@
+nome = input("Digite seu nome: ")
+idade = input("Digite sua idade: ")
+profissão = input("Digite sua profissão:")
+localização = input("Digite sua localização: ")
+CPF = input("Digite seu CPF: ")
+
+print(f"Olá, {nome}")
+print(f"Uau, {nome}, {idade} anos!")
+print(f"Ser {profissão} é muito digno.")
+print(f"{localização} é lindo! Adoraria conhecer.")
+print(f"CPF inserido, {CPF} foi cadastrado.")
