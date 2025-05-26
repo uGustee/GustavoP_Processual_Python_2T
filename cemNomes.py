@@ -15,3 +15,4 @@ for usuarios in usuarios:
     print ("Verificando:", usuarios)
     if usuarios == 85:
         print ("Fim.")
+// nao pode usar while //
