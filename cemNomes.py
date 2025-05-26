@@ -13,5 +13,5 @@ for usuarios in usuarios:
         print ("Usuário encontrado:", usuarios)
     break
     print ("Verificando:", usuarios)
-    while usuarios == 85:
+    if usuarios == 85:
         print ("Fim.")
