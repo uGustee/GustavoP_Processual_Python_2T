@@ -10,8 +10,8 @@ nomes = ["Arthur", "Beatriz", "Caio", "Daniela", "Eduardo", "Fernanda", "Gabriel
 "Jordan", "Kendall", "Leslie", "Milan", "Nico", "Ocean", "Robin", "Sky", "Terry", "Winter"]
 contador = 0
 
-for Nomes in Nomes:
-    if Nomes == "Úrsula":
+for nomes in nomes:
+    if nomes == "Úrsula":
         print ("Bônus")
     contador+= 1
     teste = contador % 15
@@ -20,4 +20,4 @@ for Nomes in Nomes:
     if contador == 85:
         print ("Fim.")
         break
-    print (Nomes)
+    print (nomes)
