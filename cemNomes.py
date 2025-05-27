@@ -1,4 +1,4 @@
-usuarios = ["Arthur", "Beatriz", "Caio", "Daniela", "Eduardo", "Fernanda", "Gabriel", "Helena", "Igor", "Júlia",
+nomes = ["Arthur", "Beatriz", "Caio", "Daniela", "Eduardo", "Fernanda", "Gabriel", "Helena", "Igor", "Júlia",
 "Kauã", "Larissa", "Miguel", "Natália", "Otávio", "Olivia", "Pedro", "Patrícia", "Rafael", "Rafaela",
 "Samuel", "Sabrina", "Thiago", "Tainá", "Victor", "Úrsula", "William", "Valentina", "André", "Yasmin",
 "Bruno", "Zuleika", "Diego", "Clara", "Enzo", "Cecília", "Guilherme", "Elisa", "Heitor", "Lívia",
@@ -8,11 +8,16 @@ usuarios = ["Arthur", "Beatriz", "Caio", "Daniela", "Eduardo", "Fernanda", "Gabr
 "Jaime", "Kai", "Logan", "Morgan", "Noel", "Orion", "Phoenix", "Quinn", "Riley", "Sam",
 "Taylor", "Zion", "Avery", "Blair", "Casey", "Devon", "Eden", "Finley", "Gray", "Hunter",
 "Jordan", "Kendall", "Leslie", "Milan", "Nico", "Ocean", "Robin", "Sky", "Terry", "Winter"]
-for usuarios in usuarios:
-    if usuarios == "Victor":
-        print ("Usuário encontrado:", usuarios)
-    break
-    print ("Verificando:", usuarios)
-    if usuarios == 85:
+contador = 0
+
+for Nomes in Nomes:
+    if Nomes == "Úrsula":
+        print ("Bônus")
+    contador+= 1
+    teste = contador % 15
+    if teste == 0:
+        print ("Teste...")
+    if contador == 85:
         print ("Fim.")
-// nao pode usar while //
+        break
+    print (Nomes)
